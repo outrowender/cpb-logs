@@ -1,11 +1,11 @@
 <?php
 
 return [
-    
+
     // server para onde o request deve ser enviado ao detectar um novo log
     // envia uma request PUT para => config('cpblogs.server').'MINHA-CHAVE-DE-API'
     // http://localhost:8000/api/log/MINHA-CHAVE-DE-API
-    'server' => 'http://api-log.testecpb.com.br/api/log/',
+    'server' => 'http://api-log.educacaoadventista.org/api/log/',
 
     // deve enviar logs quando APP_DEBUG=true
     'reportInDebug' => false,
