@@ -1,35 +1,35 @@
 {
-    "name": "wendrpatrck/cpblogs",
-    "description": "This package helps you to auto-report exceptions in code",
-    "keywords": [
-        "casa publicadora brasileira",
-        "cpblogs",
-        "exceptions",
-        "errors",
-        "logging",
-        "tracking"
-    ],
-    "type": "library",
-    "license": "MIT",
-    "version": "v1.0.32c",
-    "authors": [
-        {
-            "name": "Wender Patrick",
-            "email": "me@wenderpatrick.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "wendrpatrck\\cpblogs\\": "src"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "wendrpatrck\\cpblogs\\LogServiceProvider"
-            ]
-        }
+  "name": "wendrpatrck/cpblogs",
+  "description": "This package helps you to auto-report exceptions in code",
+  "keywords": [
+    "casa publicadora brasileira",
+    "cpblogs",
+    "exceptions",
+    "errors",
+    "logging",
+    "tracking"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "version": "v1.0.32d",
+  "authors": [
+    {
+      "name": "Wender Patrick",
+      "email": "me@wenderpatrick.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "wendrpatrck\\cpblogs\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "wendrpatrck\\cpblogs\\LogServiceProvider"
+      ]
+    }
+  }
 }
