@@ -89,7 +89,6 @@ class Reporter
                 $details['info'] = $moreData;
             }
 
-
             //Se for uma QueryException, title é preenchido sem o bindings - Matheus (31/10/2019)
             if ($title == "")
                 $title = $ex->getMessage();
